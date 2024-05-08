@@ -32,12 +32,20 @@ package Calculator_Package;
 
 public class CalculatorLogic {
 
-  public static int AddTwoNumbers(int augend, int summand) {return augend + summand;}
+
+  // TODO: very basic design, how about floats? error handling? //
+
+  public static int addTwoNumbers(int augend, int summand) {return augend + summand;}
+  
+  public static int subtractTwoNumbers(int minuend, int subtrahend) {return minuend - subtrahend;}
+
 
   public static void main(String [] args) 
   {
+    // Testing //
     System.out.println("Hello :-) ");
-    System.out.println(AddTwoNumbers(1,3));
+    System.out.println(addTwoNumbers(1,3));
+    System.out.println(subtractTwoNumbers(4,2));
   }
 
 }

@@ -32,4 +32,12 @@ package Calculator_Package;
 
 public class CalculatorLogic {
 
+  public static int AddTwoNumbers(int augend, int summand) {return augend + summand;}
+
+  public static void main(String [] args) 
+  {
+    System.out.println("Hello :-) ");
+    System.out.println(AddTwoNumbers(1,3));
+  }
+
 }
